@@ -14,6 +14,7 @@
 		440F660A2BD3BC2F002B2258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440F66092BD3BC2F002B2258 /* Assets.xcassets */; };
 		440F660D2BD3BC2F002B2258 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 440F660C2BD3BC2F002B2258 /* Base */; };
 		440F66162BD3C56F002B2258 /* OmerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F66152BD3C56F002B2258 /* OmerViewController.swift */; };
+		FD3936D42BD3CA9800A85212 /* BusraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3936D32BD3CA9800A85212 /* BusraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		440F660C2BD3BC2F002B2258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		440F660E2BD3BC2F002B2258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		440F66152BD3C56F002B2258 /* OmerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmerViewController.swift; sourceTree = "<group>"; };
+		FD3936D32BD3CA9800A85212 /* BusraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		440F65FF2BD3BC2E002B2258 /* YZL8404-Project */ = {
 			isa = PBXGroup;
 			children = (
+				FD3936D22BD3CA8B00A85212 /* Busra */,
 				BF71DBE12BD3C74100029222 /* Ismail */,
 				440F66142BD3C554002B2258 /* Omer */,
 				440F66002BD3BC2E002B2258 /* AppDelegate.swift */,
@@ -84,6 +87,14 @@
 			children = (
 			);
 			path = Ismail;
+			sourceTree = "<group>";
+		};
+		FD3936D22BD3CA8B00A85212 /* Busra */ = {
+			isa = PBXGroup;
+			children = (
+				FD3936D32BD3CA9800A85212 /* BusraViewController.swift */,
+			);
+			path = Busra;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +172,7 @@
 				440F66162BD3C56F002B2258 /* OmerViewController.swift in Sources */,
 				440F66012BD3BC2E002B2258 /* AppDelegate.swift in Sources */,
 				440F66032BD3BC2E002B2258 /* SceneDelegate.swift in Sources */,
+				FD3936D42BD3CA9800A85212 /* BusraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
