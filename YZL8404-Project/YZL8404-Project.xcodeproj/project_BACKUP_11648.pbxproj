@@ -15,9 +15,12 @@
 		440F660A2BD3BC2F002B2258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440F66092BD3BC2F002B2258 /* Assets.xcassets */; };
 		440F660D2BD3BC2F002B2258 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 440F660C2BD3BC2F002B2258 /* Base */; };
 		440F66162BD3C56F002B2258 /* OmerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F66152BD3C56F002B2258 /* OmerViewController.swift */; };
+<<<<<<< HEAD
 		FD3936D42BD3CA9800A85212 /* BusraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3936D32BD3CA9800A85212 /* BusraViewController.swift */; };
 		AD17807E2BD3CE7B00535F9F /* SeherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD17807D2BD3CE7B00535F9F /* SeherViewController.swift */; };
+=======
 		BF71DBE32BD3C8D400029222 /* IsmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF71DBE22BD3C8D400029222 /* IsmailViewController.swift */; };
+>>>>>>> 37e083b4d001f2c0a9c48a26c76b01625ce402ef
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +34,12 @@
 		440F660C2BD3BC2F002B2258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		440F660E2BD3BC2F002B2258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		440F66152BD3C56F002B2258 /* OmerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmerViewController.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		FD3936D32BD3CA9800A85212 /* BusraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusraViewController.swift; sourceTree = "<group>"; };
 		AD17807D2BD3CE7B00535F9F /* SeherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeherViewController.swift; sourceTree = "<group>"; };
+=======
 		BF71DBE22BD3C8D400029222 /* IsmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsmailViewController.swift; sourceTree = "<group>"; };
+>>>>>>> 37e083b4d001f2c0a9c48a26c76b01625ce402ef
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

@@ -17,7 +17,6 @@
 		440F66162BD3C56F002B2258 /* OmerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F66152BD3C56F002B2258 /* OmerViewController.swift */; };
 		FD3936D42BD3CA9800A85212 /* BusraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3936D32BD3CA9800A85212 /* BusraViewController.swift */; };
 		AD17807E2BD3CE7B00535F9F /* SeherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD17807D2BD3CE7B00535F9F /* SeherViewController.swift */; };
-		BF71DBE32BD3C8D400029222 /* IsmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF71DBE22BD3C8D400029222 /* IsmailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +32,6 @@
 		440F66152BD3C56F002B2258 /* OmerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmerViewController.swift; sourceTree = "<group>"; };
 		FD3936D32BD3CA9800A85212 /* BusraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusraViewController.swift; sourceTree = "<group>"; };
 		AD17807D2BD3CE7B00535F9F /* SeherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeherViewController.swift; sourceTree = "<group>"; };
-		BF71DBE22BD3C8D400029222 /* IsmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsmailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +107,6 @@
 		BF71DBE12BD3C74100029222 /* Ismail */ = {
 			isa = PBXGroup;
 			children = (
-				BF71DBE22BD3C8D400029222 /* IsmailViewController.swift */,
 			);
 			path = Ismail;
 			sourceTree = "<group>";
@@ -197,7 +194,6 @@
 				148E524F2BD3C90C0080B55B /* serpilViewController.swift in Sources */,
 				AD17807E2BD3CE7B00535F9F /* SeherViewController.swift in Sources */,
 				440F66162BD3C56F002B2258 /* OmerViewController.swift in Sources */,
-				BF71DBE32BD3C8D400029222 /* IsmailViewController.swift in Sources */,
 				440F66012BD3BC2E002B2258 /* AppDelegate.swift in Sources */,
 				440F66032BD3BC2E002B2258 /* SceneDelegate.swift in Sources */,
 				FD3936D42BD3CA9800A85212 /* BusraViewController.swift in Sources */,
