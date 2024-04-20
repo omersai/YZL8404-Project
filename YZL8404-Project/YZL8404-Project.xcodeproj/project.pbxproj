@@ -14,6 +14,7 @@
 		440F660A2BD3BC2F002B2258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440F66092BD3BC2F002B2258 /* Assets.xcassets */; };
 		440F660D2BD3BC2F002B2258 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 440F660C2BD3BC2F002B2258 /* Base */; };
 		440F66162BD3C56F002B2258 /* OmerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F66152BD3C56F002B2258 /* OmerViewController.swift */; };
+		BF71DBE32BD3C8D400029222 /* IsmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF71DBE22BD3C8D400029222 /* IsmailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		440F660C2BD3BC2F002B2258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		440F660E2BD3BC2F002B2258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		440F66152BD3C56F002B2258 /* OmerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmerViewController.swift; sourceTree = "<group>"; };
+		BF71DBE22BD3C8D400029222 /* IsmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsmailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		BF71DBE12BD3C74100029222 /* Ismail */ = {
 			isa = PBXGroup;
 			children = (
+				BF71DBE22BD3C8D400029222 /* IsmailViewController.swift */,
 			);
 			path = Ismail;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			files = (
 				440F66052BD3BC2E002B2258 /* ViewController.swift in Sources */,
 				440F66162BD3C56F002B2258 /* OmerViewController.swift in Sources */,
+				BF71DBE32BD3C8D400029222 /* IsmailViewController.swift in Sources */,
 				440F66012BD3BC2E002B2258 /* AppDelegate.swift in Sources */,
 				440F66032BD3BC2E002B2258 /* SceneDelegate.swift in Sources */,
 			);
