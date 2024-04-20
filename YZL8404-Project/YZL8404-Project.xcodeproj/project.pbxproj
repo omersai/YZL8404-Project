@@ -15,6 +15,7 @@
 		440F660A2BD3BC2F002B2258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440F66092BD3BC2F002B2258 /* Assets.xcassets */; };
 		440F660D2BD3BC2F002B2258 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 440F660C2BD3BC2F002B2258 /* Base */; };
 		440F66162BD3C56F002B2258 /* OmerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F66152BD3C56F002B2258 /* OmerViewController.swift */; };
+		AD17807E2BD3CE7B00535F9F /* SeherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD17807D2BD3CE7B00535F9F /* SeherViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		440F660C2BD3BC2F002B2258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		440F660E2BD3BC2F002B2258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		440F66152BD3C56F002B2258 /* OmerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmerViewController.swift; sourceTree = "<group>"; };
+		AD17807D2BD3CE7B00535F9F /* SeherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 		440F65FF2BD3BC2E002B2258 /* YZL8404-Project */ = {
 			isa = PBXGroup;
 			children = (
+				AD17807C2BD3CE6700535F9F /* Seher */,
 				148E524D2BD3C8220080B55B /* serpil */,
 				BF71DBE12BD3C74100029222 /* Ismail */,
 				440F66142BD3C554002B2258 /* Omer */,
@@ -88,6 +91,14 @@
 				440F66152BD3C56F002B2258 /* OmerViewController.swift */,
 			);
 			path = Omer;
+			sourceTree = "<group>";
+		};
+		AD17807C2BD3CE6700535F9F /* Seher */ = {
+			isa = PBXGroup;
+			children = (
+				AD17807D2BD3CE7B00535F9F /* SeherViewController.swift */,
+			);
+			path = Seher;
 			sourceTree = "<group>";
 		};
 		BF71DBE12BD3C74100029222 /* Ismail */ = {
@@ -170,6 +181,7 @@
 			files = (
 				440F66052BD3BC2E002B2258 /* ViewController.swift in Sources */,
 				148E524F2BD3C90C0080B55B /* serpilViewController.swift in Sources */,
+				AD17807E2BD3CE7B00535F9F /* SeherViewController.swift in Sources */,
 				440F66162BD3C56F002B2258 /* OmerViewController.swift in Sources */,
 				440F66012BD3BC2E002B2258 /* AppDelegate.swift in Sources */,
 				440F66032BD3BC2E002B2258 /* SceneDelegate.swift in Sources */,
