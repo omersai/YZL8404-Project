@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		148E524F2BD3C90C0080B55B /* serpilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148E524E2BD3C90C0080B55B /* serpilViewController.swift */; };
 		440F66012BD3BC2E002B2258 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F66002BD3BC2E002B2258 /* AppDelegate.swift */; };
 		440F66032BD3BC2E002B2258 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F66022BD3BC2E002B2258 /* SceneDelegate.swift */; };
 		440F66052BD3BC2E002B2258 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F66042BD3BC2E002B2258 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		148E524E2BD3C90C0080B55B /* serpilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = serpilViewController.swift; sourceTree = "<group>"; };
 		440F65FD2BD3BC2E002B2258 /* YZL8404-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YZL8404-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		440F66002BD3BC2E002B2258 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		440F66022BD3BC2E002B2258 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		148E524D2BD3C8220080B55B /* serpil */ = {
+			isa = PBXGroup;
+			children = (
+				148E524E2BD3C90C0080B55B /* serpilViewController.swift */,
+			);
+			path = serpil;
+			sourceTree = "<group>";
+		};
 		440F65F42BD3BC2E002B2258 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		440F65FF2BD3BC2E002B2258 /* YZL8404-Project */ = {
 			isa = PBXGroup;
 			children = (
+				148E524D2BD3C8220080B55B /* serpil */,
 				440F66142BD3C554002B2258 /* Omer */,
 				440F66002BD3BC2E002B2258 /* AppDelegate.swift */,
 				440F66022BD3BC2E002B2258 /* SceneDelegate.swift */,
@@ -150,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				440F66052BD3BC2E002B2258 /* ViewController.swift in Sources */,
+				148E524F2BD3C90C0080B55B /* serpilViewController.swift in Sources */,
 				440F66162BD3C56F002B2258 /* OmerViewController.swift in Sources */,
 				440F66012BD3BC2E002B2258 /* AppDelegate.swift in Sources */,
 				440F66032BD3BC2E002B2258 /* SceneDelegate.swift in Sources */,
