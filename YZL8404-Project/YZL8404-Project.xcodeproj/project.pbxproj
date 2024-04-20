@@ -68,11 +68,8 @@
 		440F65FF2BD3BC2E002B2258 /* YZL8404-Project */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				148E524D2BD3C8220080B55B /* serpil */,
-=======
 				BF71DBE12BD3C74100029222 /* Ismail */,
->>>>>>> 8e77c22e869bd5a70b9bf16e7de2f8cfebd41b21
 				440F66142BD3C554002B2258 /* Omer */,
 				440F66002BD3BC2E002B2258 /* AppDelegate.swift */,
 				440F66022BD3BC2E002B2258 /* SceneDelegate.swift */,
