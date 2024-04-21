@@ -18,6 +18,7 @@
 		447132162BD3D64C006809DA /* HaticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447132152BD3D64C006809DA /* HaticeViewController.swift */; };
 		AD17807E2BD3CE7B00535F9F /* SeherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD17807D2BD3CE7B00535F9F /* SeherViewController.swift */; };
 		BF71DBE32BD3C8D400029222 /* IsmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF71DBE22BD3C8D400029222 /* IsmailViewController.swift */; };
+		BF71DBE52BD5012D00029222 /* ismailMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF71DBE42BD5012D00029222 /* ismailMain.storyboard */; };
 		FD3936D42BD3CA9800A85212 /* BusraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3936D32BD3CA9800A85212 /* BusraViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		447132152BD3D64C006809DA /* HaticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaticeViewController.swift; sourceTree = "<group>"; };
 		AD17807D2BD3CE7B00535F9F /* SeherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeherViewController.swift; sourceTree = "<group>"; };
 		BF71DBE22BD3C8D400029222 /* IsmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsmailViewController.swift; sourceTree = "<group>"; };
+		BF71DBE42BD5012D00029222 /* ismailMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ismailMain.storyboard; sourceTree = "<group>"; };
 		FD3936D32BD3CA9800A85212 /* BusraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				BF71DBE22BD3C8D400029222 /* IsmailViewController.swift */,
+				BF71DBE42BD5012D00029222 /* ismailMain.storyboard */,
 			);
 			path = Ismail;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF71DBE52BD5012D00029222 /* ismailMain.storyboard in Resources */,
 				440F660A2BD3BC2F002B2258 /* Assets.xcassets in Resources */,
 				440F660D2BD3BC2F002B2258 /* Base in Resources */,
 				440F66082BD3BC2E002B2258 /* Base in Resources */,
@@ -370,7 +374,7 @@
 				INFOPLIST_FILE = "YZL8404-Project/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = ismailMain;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -400,7 +404,7 @@
 				INFOPLIST_FILE = "YZL8404-Project/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = ismailMain;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
