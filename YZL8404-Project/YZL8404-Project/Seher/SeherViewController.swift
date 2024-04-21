@@ -7,23 +7,27 @@
 
 import UIKit
 
-class SeherViewController: UIViewController {
+final class SeherViewController: UIViewController {
 
+    @IBOutlet weak var tableView: UITableView!
+    
+    var filmArray : [String] = ["Kirazın Tadı", "Aslı Gibidir", "Arkadaşın Evi Nerede", "Split"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.dataSource = self
+        tableView.delegate = self
+    }
+}
 
-        // Do any additional setup after loading the view.
+extension SeherViewController: UITableViewDataSource, UITableViewDelegate {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return filmArray.count
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        cell.textLabel?.text = filmArray[indexPath.row]
+        return cell
     }
-    */
-
 }
