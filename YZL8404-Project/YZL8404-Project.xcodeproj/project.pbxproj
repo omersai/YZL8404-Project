@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0529B7922BD4FFB500B18A65 /* AzimMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0529B7912BD4FFB500B18A65 /* AzimMain.storyboard */; };
 		148E524F2BD3C90C0080B55B /* serpilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148E524E2BD3C90C0080B55B /* serpilViewController.swift */; };
 		440F66012BD3BC2E002B2258 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F66002BD3BC2E002B2258 /* AppDelegate.swift */; };
 		440F66032BD3BC2E002B2258 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F66022BD3BC2E002B2258 /* SceneDelegate.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0529B7912BD4FFB500B18A65 /* AzimMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AzimMain.storyboard; sourceTree = "<group>"; };
 		148E524E2BD3C90C0080B55B /* serpilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = serpilViewController.swift; sourceTree = "<group>"; };
 		440F65FD2BD3BC2E002B2258 /* YZL8404-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YZL8404-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		440F66002BD3BC2E002B2258 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0529B7902BD4FB9200B18A65 /* Azimm */ = {
+			isa = PBXGroup;
+			children = (
+				0529B7912BD4FFB500B18A65 /* AzimMain.storyboard */,
+			);
+			path = Azimm;
+			sourceTree = "<group>";
+		};
 		148E524D2BD3C8220080B55B /* serpil */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +86,7 @@
 		440F65FF2BD3BC2E002B2258 /* YZL8404-Project */ = {
 			isa = PBXGroup;
 			children = (
+				0529B7902BD4FB9200B18A65 /* Azimm */,
 				447132142BD3D640006809DA /* Hatice */,
 				FD3936D22BD3CA8B00A85212 /* Busra */,
 				AD17807C2BD3CE6700535F9F /* Seher */,
@@ -191,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0529B7922BD4FFB500B18A65 /* AzimMain.storyboard in Resources */,
 				440F660A2BD3BC2F002B2258 /* Assets.xcassets in Resources */,
 				440F660D2BD3BC2F002B2258 /* Base in Resources */,
 				440F66082BD3BC2E002B2258 /* Base in Resources */,
@@ -368,7 +380,7 @@
 				INFOPLIST_FILE = "YZL8404-Project/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = AzimMain;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -395,7 +407,7 @@
 				INFOPLIST_FILE = "YZL8404-Project/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = AzimMain;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
