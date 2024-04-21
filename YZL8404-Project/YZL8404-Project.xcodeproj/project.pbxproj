@@ -18,6 +18,7 @@
 		447132162BD3D64C006809DA /* HaticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447132152BD3D64C006809DA /* HaticeViewController.swift */; };
 		AD17807E2BD3CE7B00535F9F /* SeherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD17807D2BD3CE7B00535F9F /* SeherViewController.swift */; };
 		BF71DBE32BD3C8D400029222 /* IsmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF71DBE22BD3C8D400029222 /* IsmailViewController.swift */; };
+		FD16B4442BD4FF330092E864 /* BusraMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD16B4432BD4FF330092E864 /* BusraMain.storyboard */; };
 		FD3936D42BD3CA9800A85212 /* BusraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3936D32BD3CA9800A85212 /* BusraViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		447132152BD3D64C006809DA /* HaticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaticeViewController.swift; sourceTree = "<group>"; };
 		AD17807D2BD3CE7B00535F9F /* SeherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeherViewController.swift; sourceTree = "<group>"; };
 		BF71DBE22BD3C8D400029222 /* IsmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsmailViewController.swift; sourceTree = "<group>"; };
+		FD16B4432BD4FF330092E864 /* BusraMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BusraMain.storyboard; sourceTree = "<group>"; };
 		FD3936D32BD3CA9800A85212 /* BusraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				FD3936D32BD3CA9800A85212 /* BusraViewController.swift */,
+				FD16B4432BD4FF330092E864 /* BusraMain.storyboard */,
 			);
 			path = Busra;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				440F660A2BD3BC2F002B2258 /* Assets.xcassets in Resources */,
+				FD16B4442BD4FF330092E864 /* BusraMain.storyboard in Resources */,
 				440F660D2BD3BC2F002B2258 /* Base in Resources */,
 				440F66082BD3BC2E002B2258 /* Base in Resources */,
 			);
@@ -365,12 +369,12 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QVP779A4Y7;
+				DEVELOPMENT_TEAM = G6XPA2NXAY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "YZL8404-Project/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = BusraMain;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -395,12 +399,12 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QVP779A4Y7;
+				DEVELOPMENT_TEAM = G6XPA2NXAY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "YZL8404-Project/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = BusraMain;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
