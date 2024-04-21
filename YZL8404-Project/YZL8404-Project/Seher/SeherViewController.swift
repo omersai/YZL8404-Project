@@ -7,18 +7,17 @@
 
 import UIKit
 
-class SeherViewController: UIViewController {
+final class SeherViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
     var filmArray : [String] = ["Kirazın Tadı", "Aslı Gibidir", "Arkadaşın Evi Nerede", "Split"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         tableView.dataSource = self
         tableView.delegate = self
     }
-
 }
 
 extension SeherViewController: UITableViewDataSource, UITableViewDelegate {
@@ -29,7 +28,6 @@ extension SeherViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel?.text = filmArray[indexPath.row]
-        return cell    }
-    
-    
+        return cell
+    }
 }
